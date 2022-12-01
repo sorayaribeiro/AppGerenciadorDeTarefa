@@ -4,7 +4,7 @@ import {
     StyleSheet    
 } from "react-native";
 
-import Lottie from "lottie-react-native";
+import LottieView from "lottie-react-native";
 
 export default function LifeStatus(){
 
@@ -19,21 +19,21 @@ export default function LifeStatus(){
 
 return(
     <View style={styles.container}>
-        <Lottie source={require("../../../assets/education/education-1.json")}
-        autoPlay
-        loop
+        <LottieView source={require("../../../assets/education/education-1.json")}
+        autoPlay={true}
+        loop={true}
         style={styles.educacaoAnimacao}
         />
 
-        <Lottie source={require("../../../assets/money/money-100.json")}
-        autoPlay
-        loop
+        <LottieView source={require("../../../assets/money/money-100.json")}
+        autoPlay={true}
+        loop={true}
         style={styles.financasAnimacao}
         />
 
-        <Lottie source={require("../../../assets/robot/robot-100-100.json")}
-        autoPlay
-        loop
+        <LottieView source={require("../../../assets/robot/robot-100-100.json")}
+        autoPlay={true}
+        loop={true} 
         style={styles.roboAnimacao}
         />
 
