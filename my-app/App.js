@@ -4,9 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Routes from './src/Routes';
 
-expost default function App(){
-  return<>
+export default function App(){
+  return(<>
   <StatusBar barStyle={"auto"} />
   <Routes />
-  </>;
+  </>);
 }
