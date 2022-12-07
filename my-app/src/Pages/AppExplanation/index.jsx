@@ -9,6 +9,10 @@ import {
 import DefaultButton from "../../Components/Common/DefaultButton";
 
 export default function AppExplanation(){
+    function handleSetShowHome(){
+        
+    }
+
     return(
         <View style={styles.container}>
             <ScrollView>
